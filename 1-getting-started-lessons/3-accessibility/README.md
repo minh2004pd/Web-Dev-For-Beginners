@@ -184,15 +184,14 @@ Take this HTML and rewrite it to be as accessible as possible, given the strateg
     <div class="main-nav">
       <p class="nav-header">Resources</p>
       <div class="nav-list">
-        <p class="nav-item nav-item-bull"><a href="https://www.youtube.com/watch?v=CMNry4PE93Y">"I like turtles"</a></p>
-        <p class="nav-item nav-item-bull"><a href="https://en.wikipedia.org/wiki/Turtle">Basic Turtle Info</a></p>
-        <p class="nav-item nav-item-bull"><a href="https://en.wikipedia.org/wiki/Turtles_(chocolate)">Chocolate Turtles</a></p>
+        <p class="nav-item nav-item-bull">"I like <a href="https://www.youtube.com/watch?v=CMNry4PE93Y" aria-label="Turtles video">turtles</a>"</p>
+        <p class="nav-item nav-item-bull">Basic <a href="https://en.wikipedia.org/wiki/Turtle" aria-label="explain Turtle">Turtle</a> Info</p>
+        <p class="nav-item nav-item-bull">Chocolate <a href="https://en.wikipedia.org/wiki/Turtles_(chocolate)" arialabel="Turtles">Turtles</a></p>
       </div>
     </div>
     <div class="main-content">
       <div>
-        <p class="page-title">Welcome to Turtle Ipsum. 
-            <a href="">Click here</a> to learn more.
+        <p class="page-title">Welcome to <a href="">Turtle Ipsum</a>.
         </p>
         <p class="article-text">
           Turtle ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
